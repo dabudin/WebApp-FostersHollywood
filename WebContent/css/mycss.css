@@ -1,0 +1,64 @@
+#maincontainer {
+    height: 95%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #ececec;
+}
+.carousel img {
+    width: auto;
+    max-width: 100%;
+    position: relative;
+}
+.carousel img[src="img/logo.png"] {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    z-index: 1;
+}
+#categorias div,
+#productos div {
+	height: auto;
+	max-height: 320px;
+}
+#categorias .card,
+#productos .card {
+    color: #317cf7;
+}
+#categorias .card img,
+#productos .card img,
+#producto .card img {
+    width: auto;
+    max-width: 100%;
+}
+#producto .card {
+    width: 66%;
+    min-width: 420px;
+    max-height: 800px;
+    margin: 0 auto; 
+}
+.rating {
+	font-size: 0 ;
+	display: inline-block ;
+}
+.rating a, .puntuacion a {
+	text-decoration: none ;
+	display: inline-block ;
+	font-size: 32px ;
+	font-size: 2rem ;    
+	color: #888 ;
+}
+.rating:hover a {
+	color: gold ;
+}
+.rating > a:hover ~ a {
+	color: #888 ;
+}
+.puntuacion span {
+	text-decoration: none ;
+	display: inline-block ;
+	font-size: 64px;
+	color: gold;
+}
+footer {
+    color: white;
+    background-color: #171944;
+}
